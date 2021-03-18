@@ -14,6 +14,8 @@ import Scatter from './components/scatter'
 
 function App(props) {  
 
+  document.title = 'Graficos - Renan'
+
   return (
     <div>
       <Navbar dark color="primary">
