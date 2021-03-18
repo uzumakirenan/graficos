@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Card } from 'reactstrap'
+import { Card, Button } from 'reactstrap'
 import Chart from 'chart.js'
 
 export default (props) => {
@@ -103,12 +103,7 @@ export default (props) => {
         <div className="col-12 col-sm-6 col-md-4">    
             <Card className="p-2 mt-3">               
                 <canvas id="Doughnut" width="400" height="400"></canvas>    
-                
-                <div className="text-center">
-                    <input type="button" value="Gerar Dados" onClick={()=>{botao()}}></input>  
-                </div> 
-                  
-                
+                <Button color="primary mt-3" onClick={()=>{botao()}}>Randomizar Dados</Button>
             </Card>            
         </div>
     )

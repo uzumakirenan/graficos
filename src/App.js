@@ -26,10 +26,10 @@ function App(props) {
         <Line legenda={false} titulo="Grafico tipo Line" />
         <Bar legenda={false} titulo="Grafico tipo Bar" />
         <Bubble legenda={false} titulo="Grafico tipo Bubble" />
-        <Doughnut legenda={false} titulo="Grafico tipo Dougnut" />
+        <Doughnut legenda={true} titulo="Grafico tipo Dougnut" />
         <Hbar legenda={false} titulo="Grafico tipo Horizontal Bar" />
-        <Pie legenda={false} titulo="Grafico tipo Pie" />
-        <Polar legenda={false} titulo="Grafico tipo Polar Area" />
+        <Pie legenda={true} titulo="Grafico tipo Pie" />
+        <Polar legenda={true} titulo="Grafico tipo Polar Area" />
         <Radar legenda={false} titulo="Grafico tipo Radar" />
         <Scatter legenda={false} titulo="Grafico tipo Scatter" />
         
