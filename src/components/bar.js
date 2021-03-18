@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Card, Button } from 'reactstrap'
 import Chart from 'chart.js'
 
-export default Bar = (props) => {
+export default (props) => {
 
     const valores = (max, min) => {    
         const vl = Math.floor(Math.random() * (max - min) + min)
